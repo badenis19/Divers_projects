@@ -1,0 +1,105 @@
+html {
+    max-width: 100%;
+}
+
+.navigation h1 {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid green; */
+    list-style-type: none;
+    margin-left: 0;
+    margin-bottom: 0px;
+    background-color: black;
+    
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.banner {
+    position: relative;
+    /* background-image: url("./images/lion.jpg"); */
+    background-image: url("images/lion.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    /* background: linear-gradient(180deg,rgba(0,0,0,.2),rgba(0,0,0,.5)); */
+}
+
+.banner p {
+    color: #04ABB4;
+    font-family: "Noto Sans JP";
+}
+
+.banner p:last-child{
+    color:red
+}
+
+.title h1 {
+    text-align: center;
+    
+}
+
+.cards {
+    display: flex;
+    /* border: 1px dotted black; */
+    justify-content: center;
+    
+}
+
+.card{
+    width: 300px;
+    display: flex;
+    /* border: 1px solid red ; */
+    /* justify-content: center; */
+    padding-top: 5px;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* border: 1px solid green; */
+    align-self: center;
+}
+
+.card h2 {
+    align-self: center;
+}
+
+.btn-success, .btn-danger { 
+    opacity: 0.6;
+}
+
+
+/* .card img:first-child {
+    border-radius: 50%;
+} */
+
+
+/* .container1 {
+    width: 100px;
+    height: 100px;
+    background-color:yellow;
+    position: relative;
+    
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    position: absolute;
+    left: 100px;
+
+} */
